@@ -48,4 +48,20 @@ nav .navbar-right .navbar-link {
     color: #fff;
 }
 
+.language-section select {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    color: #333;
+  }
 
+  .language-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-section select option {
+    background-color: #d01818;
+    color: #333;
+  }
