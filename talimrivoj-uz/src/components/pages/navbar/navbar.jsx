@@ -12,12 +12,12 @@ const Navbar = () => {
       </ul>
       <div className="navbar-right">
         <a href="#" className="navbar-link">Online Payment</a>
-        <a href="#" className="navbar-link">Login</a>
+        <a href="#" className="navbar-link-login active">Login</a>
         <div className="language-section">
           <select>
-            <option value="en">O'zbekcha</option>
-            <option value="fr">Russian</option>
-            <option value="es">English</option>
+            <option value="uz">O'zbekcha</option>
+            <option value="ru">Russian</option>
+            <option value="eng">English</option>
           </select>
         </div>
       </div>
