@@ -5,7 +5,7 @@ nav ul {
 
 nav ul li a {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
     display: flex;
     align-items: center;
@@ -55,13 +55,12 @@ nav .navbar-right .navbar-link {
     background-color: #f5f5f5;
     color: #333;
   }
-
-  .language-section {
-    display: flex;
-    align-items: center;
-  }
   
   .language-section select option {
-    background-color: #d01818;
+    background-color: #f5f5f5;
     color: #333;
+  }
+  
+  .language-section select:focus {
+    border: 1px solid #777;
   }
