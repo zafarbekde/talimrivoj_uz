@@ -15,7 +15,6 @@ const Navbar = () => {
         <a href="#" className="navbar-link">Online Payment</a>
         <a href="#" className="navbar-link-login active">Login</a>
         <div className="language-section">
-        <i className="fas fa-globe"></i>
           <select>
             <option value="uz">O'zbekcha</option>
             <option value="ru">Russian</option>

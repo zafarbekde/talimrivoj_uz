@@ -1,66 +1,110 @@
+/* Navbar.css */
+
 nav ul {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 nav ul li a {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    display: flex;
-    align-items: center;
-    color: #304388;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #304388;
 }
 
 nav ul li a:hover {
-    color: #4f5a7e;
+  color: #4f5a7e;
 }
 
 nav .navbar-right {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 nav .navbar-right .navbar-link {
-    padding: 9px 25px;
-    background: #FDCB00;
-    border-radius: 35px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #000000;
+  padding: 9px 25px;
+  background: #FDCB00;
+  border-radius: 35px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
 }
 
-
- .active {
-    padding: 9px 25px;
-    background: linear-gradient(89.52deg, #314085 2.12%, #00A6E8 98.98%);
-    border-radius: 35px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    color: #fff;
+nav .active {
+  padding: 9px 25px;
+  background: linear-gradient(89.52deg, #314085 2.12%, #00A6E8 98.98%);
+  border-radius: 35px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #fff;
 }
 
 .language-section select {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #f5f5f5;
-    color: #333;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.language-section select option {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.language-section select:focus {
+  border: 1px solid #777;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
   }
-  
-  .language-section select option {
-    background-color: #f5f5f5;
-    color: #333;
+
+  nav .navbar-right {
+    flex-direction: column;
+    gap: 10px;
   }
-  
-  .language-section select:focus {
-    border: 1px solid #777;
+
+  nav .navbar-right .navbar-link {
+    padding: 7px 20px;
+    font-size: 14px;
   }
+
+  nav .active {
+    padding: 7px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul li a {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  nav .navbar-right .navbar-link {
+    padding: 7px 15px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  nav .active {
+    padding: 7px 15px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
