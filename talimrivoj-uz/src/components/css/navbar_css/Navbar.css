@@ -24,7 +24,7 @@ nav .navbar-right {
 }
 
 nav .navbar-right .navbar-link {
-    padding: 11px 25.64px 11px 26px;
+    padding: 9px 25px;
     background: #FDCB00;
     border-radius: 35px;
     font-weight: 500;
@@ -37,7 +37,7 @@ nav .navbar-right .navbar-link {
 
 
  .active {
-    padding: 11px 25.64px 11px 26px;
+    padding: 9px 25px;
     background: linear-gradient(89.52deg, #314085 2.12%, #00A6E8 98.98%);
     border-radius: 35px;
     font-weight: 500;
@@ -47,4 +47,5 @@ nav .navbar-right .navbar-link {
     align-items: center;
     color: #fff;
 }
-}
+
+
